@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("enter the 1st number (a): ");
+scanf("%d", &a);
+printf("enter the 2nd numder (b): ");
+scanf("%d", &b);
+//SAWP NO.
+c = a;
+a = b;
+b = c;
+//output
+printf("after swaping\n");
+printf("a = %d\n", a);
+printf("b = %d\n", b);
+return 0;
+}
